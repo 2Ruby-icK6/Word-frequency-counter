@@ -24,10 +24,22 @@ label {
     margin-bottom: 5px;
 }
 
-textarea,
-select,
+textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
 input[type="number"] {
-    width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
